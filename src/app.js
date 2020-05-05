@@ -43,7 +43,7 @@ class App {
       res.redirect('https://www.youtube.com/watch?v=afc9bjcQdXI')
     );
     this.server.use('/globohub', (req, res) =>
-      res.sendFile(path.resolve(__dirname, '..', 'public', 'app.apk'))
+      res.sendFile(path.resolve(__dirname, '..', 'public', 'app-release.apk'))
     );
 
     this.server.use('/api', routes);
