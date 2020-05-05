@@ -20,4 +20,7 @@ routes.use(authMiddleware);
 routes.put('/users', UserController.update);
 
 routes.post('/files', upload.single('file'), FileController.store);
+
+routes.get('/video', (req, res) => res.json({ code: 'TM-KtdIk2JI' }));
+
 export default routes;

@@ -1,143 +1,129 @@
+.overlay {
+  background: #000;
+  opacity: 0.1;
+  width: 100%;
+  min-height: 100%;
 
-.overlay{
-    background: #000;
-    opacity: .3;
-    width: 100%;
-    min-height: 100%;
-
-    position: absolute;
-    z-index: -1;
-   
+  position: absolute;
+  z-index: -1;
 }
-header{
-    display: flex;
-    width: 100%;
-    
+header {
+  display: flex;
+  width: 100%;
 }
 
-header img{
-    width: 100px;
-    height: 100px;
-    margin-left: 80px;
-    
+header img {
+  width: 100px;
+  height: 100px;
+  margin-left: 80px;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 16px;
-    flex: 1 1 0%;
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px;
+  flex: 1 1 0%;
 }
 
-.content{
-    margin-left: 80px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding: 0px 0px 32px;
-   
-    
+.content {
+  margin-left: 80px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 32px;
+  background: #222222dd;
 }
 
-.container h1{
-    font-size: 32px;
-    color: #fff;
-    
+.container h1 {
+  font-size: 32px;
+  color: #fff;
 }
 
-.content h2{
-    font-size: 32px;
-    margin-top: 20px;
-    color: #fff;
-    
+.content h2 {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #fff;
 }
 
-.content p{
-    display: flex;
-    align-items: center;
-    font-size: 16px;
-    color: #fff;
-    text-align: justify;
-    
+.content p {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
 }
 
-.content a{
-    color: #C4170C;
-    font-weight: bold;
+.content a {
+  color: #f8f7fd;
+  font-weight: bold;
 }
 
-.products{
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    margin-right: 30px;
+.products {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
 }
 
-.products img{
-    align-self: center;
-    margin-top: -30px;
-    width: 90%;
+.products img {
+  align-self: center;
+  margin-top: -30px;
+  width: 90%;
 }
 
-
-
-.buttons a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    width: 170px;
-    height: 40px;
-    font-size: 14px;
-   text-decoration: none;
-    border:solid 1px #C4170C;
-    -webkit-box-shadow: 0px 2px 0px #C4170C;
-    -moz-box-shadow: 0px 2px 0px #C4170C;
-    box-shadow: 0px 2px 0px #C4170C;
-    background: #F31D1D;
-    border-radius: 36px;
-    color: #fff;
-    cursor: pointer;
-    transition: all 0.1s;
-    margin-left: 10px;
+.buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 170px;
+  height: 40px;
+  font-size: 14px;
+  text-decoration: none;
+  border: solid 1px #c4170c;
+  -webkit-box-shadow: 0px 2px 0px #c4170c;
+  -moz-box-shadow: 0px 2px 0px #c4170c;
+  box-shadow: 0px 2px 0px #c4170c;
+  background: #f31d1d;
+  border-radius: 36px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s;
+  margin-left: 10px;
 }
 
-
-.buttons a:first-child{
-    margin-left: 0;
+.buttons a:first-child {
+  margin-left: 0;
 }
 
-.buttons a:active{
-    -webkit-box-shadow: 0px 2px 0px #C4170C;
-    -moz-box-shadow: 0px 2px 0px #C4170C;
-    box-shadow: 0px 2px 0px #C4170C;
-    position:relative;
-    top:4px;
+.buttons a:active {
+  -webkit-box-shadow: 0px 2px 0px #c4170c;
+  -moz-box-shadow: 0px 2px 0px #c4170c;
+  box-shadow: 0px 2px 0px #c4170c;
+  position: relative;
+  top: 4px;
 }
 
-.buttons{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.material-icons{
-    font-size: 18px;
-    
+.material-icons {
+  font-size: 18px;
 }
 
-footer{
-    margin-right:80px;
-    float: right;
+footer {
+  margin-right: 80px;
+  float: right;
 }
 
-footer img{
-    width: 50px
+footer img {
+  width: 50px;
 }
-

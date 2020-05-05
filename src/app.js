@@ -35,6 +35,17 @@ class App {
   }
 
   routes() {
+    this.server.use(
+      '/',
+      express.static(path.resolve(__dirname, '..', 'public'))
+    );
+    this.server.use('/video', (req, res) =>
+      res.redirect('https://www.youtube.com/watch?v=TM-KtdIk2JI')
+    );
+    this.server.use('/globohub', (req, res) =>
+      res.sendFile(path.resolve(__dirname, '..', 'public', 'app-debug.apk'))
+    );
+
     this.server.use('/api', routes);
     this.server.use(Sentry.Handlers.errorHandler());
   }
