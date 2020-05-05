@@ -9,7 +9,7 @@ import Youch from 'youch';
 import sentryConfig from './config/sentry';
 
 import 'express-async-errors';
-import './database';
+// import './database';
 
 import routes from './routes';
 
@@ -43,7 +43,7 @@ class App {
       res.redirect('https://www.youtube.com/watch?v=TM-KtdIk2JI')
     );
     this.server.use('/globohub', (req, res) =>
-      res.sendFile(path.resolve(__dirname, '..', 'public', 'app-debug.apk'))
+      res.sendFile(path.resolve(__dirname, '..', 'public', 'app.apk'))
     );
 
     this.server.use('/api', routes);
