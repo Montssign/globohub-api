@@ -127,3 +127,15 @@ footer {
 footer img {
   width: 50px;
 }
+
+.qrcode {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 56px;
+  right: 56px;
+}
+
+.qrcode img {
+  width: 100%;
+}

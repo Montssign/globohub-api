@@ -17,6 +17,11 @@
     margin-left: 0;
   }
 
+  .qrcode {
+    margin: 50px auto;
+    position: relative;
+  }
+
   .products {
     display: none;
   }
