@@ -21,6 +21,6 @@ const routes = Router();
 
 // routes.post('/files', upload.single('file'), FileController.store);
 
-routes.get('/video', (req, res) => res.json({ code: 'TM-KtdIk2JI' }));
+routes.get('/video', (req, res) => res.json({ code: 'afc9bjcQdXI' }));
 
 export default routes;

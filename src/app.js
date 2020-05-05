@@ -40,7 +40,7 @@ class App {
       express.static(path.resolve(__dirname, '..', 'public'))
     );
     this.server.use('/video', (req, res) =>
-      res.redirect('https://www.youtube.com/watch?v=TM-KtdIk2JI')
+      res.redirect('https://www.youtube.com/watch?v=afc9bjcQdXI')
     );
     this.server.use('/globohub', (req, res) =>
       res.sendFile(path.resolve(__dirname, '..', 'public', 'app.apk'))
